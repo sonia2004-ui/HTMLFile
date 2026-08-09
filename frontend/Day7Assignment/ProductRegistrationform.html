@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Registration</title>
+</head>
+<body>
+
+<h1 align="center">Product Registration & Inventory Report</h1>
+
+<form action="#" method="post">
+
+    <label>Product ID:</label>
+    <input type="text" name="productid"><br><br>
+
+    <label>Product Name:</label>
+    <input type="text" name="productname"><br><br>
+
+    <label>Brand:</label>
+    <input type="text" name="brand"><br><br>
+
+    <label>Category:</label>
+    <select name="category">
+        <option>Select Category</option>
+        <option>Mobile</option>
+        <option>Laptop</option>
+        <option>TV</option>
+        <option>Accessories</option>
+    </select><br><br>
+
+    <label>Price:</label>
+    <input type="number" name="price"><br><br>
+
+    <label>Quantity:</label>
+    <input type="number" name="quantity"><br><br>
+
+    <label>Supplier:</label>
+    <input type="text" name="supplier"><br><br>
+
+    <label>Product Image:</label>
+    <input type="file" name="image"><br><br>
+
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+
+</form>
+
+<br><br>
+
+<h2>Inventory Report</h2>
+
+<table border="1" cellpadding="10" cellspacing="0">
+
+    <thead>
+        <tr>
+            <th>Product ID</th>
+            <th>Product Name</th>
+            <th>Brand</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Stock Status</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>P101</td>
+            <td>Laptop</td>
+            <td>HP</td>
+            <td>50000</td>
+            <td>10</td>
+            <td>Available</td>
+        </tr>
+    </tbody>
+
+</table>
+
+</body>
+</html>
